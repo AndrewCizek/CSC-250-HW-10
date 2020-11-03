@@ -15,6 +15,9 @@ public class Players
 	
 	static void displayArray(int[] age)
 	{
-		
+		for (int i = 0; i < age.length; i++)
+		{
+			System.out.println(age[i]);
+		}
 	}
 }
